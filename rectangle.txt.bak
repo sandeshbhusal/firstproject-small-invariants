@@ -1,0 +1,824 @@
+Daikon version 5.8.18, released June 23, 2023; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+RectTest:::OBJECT
+this has only one value
+===========================================================================
+RectTest.RectTest():::EXIT
+===========================================================================
+RectTest.test(int, int):::ENTER
+arg0 >= 0
+arg1 >= 0
+===========================================================================
+RectTest.test(int, int):::EXIT
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="return == true"
+return == true
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+rectangle.main(java.lang.String[]):::ENTER
+arg0 has only one value
+arg0.getClass().getName() == java.lang.String[].class
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.main(java.lang.String[]):::EXIT
+arg0[] == orig(arg0[])
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.test(int, int):::ENTER
+arg0 == 100
+arg1 == 100
+===========================================================================
+rectangle.test(int, int):::EXIT
+Exiting Daikon.
+Daikon version 5.8.18, released June 23, 2023; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+RectTest:::OBJECT
+this has only one value
+===========================================================================
+RectTest.RectTest():::EXIT
+===========================================================================
+RectTest.test(int, int):::ENTER
+arg0 >= 0
+arg1 >= 0
+===========================================================================
+RectTest.test(int, int):::EXIT
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="return == true"
+return == true
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+rectangle.main(java.lang.String[]):::ENTER
+arg0 has only one value
+arg0.getClass().getName() == java.lang.String[].class
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.main(java.lang.String[]):::EXIT
+arg0[] == orig(arg0[])
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.test(int, int):::ENTER
+arg0 == 100
+arg1 == 100
+===========================================================================
+rectangle.test(int, int):::EXIT
+Exiting Daikon.
+Daikon version 5.8.18, released June 23, 2023; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+RectTest:::OBJECT
+this has only one value
+===========================================================================
+RectTest.RectTest():::EXIT
+===========================================================================
+RectTest.test(int, int):::ENTER
+arg0 >= 0
+arg1 >= 0
+===========================================================================
+RectTest.test(int, int):::EXIT
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="return == true"
+return == true
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+rectangle.main(java.lang.String[]):::ENTER
+arg0 has only one value
+arg0.getClass().getName() == java.lang.String[].class
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.main(java.lang.String[]):::EXIT
+arg0[] == orig(arg0[])
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.test(int, int):::ENTER
+arg0 == 100
+arg1 == 100
+===========================================================================
+rectangle.test(int, int):::EXIT
+Exiting Daikon.
+Daikon version 5.8.18, released June 23, 2023; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+RectTest:::OBJECT
+this has only one value
+===========================================================================
+RectTest.RectTest():::EXIT
+===========================================================================
+RectTest.test(int, int):::ENTER
+arg0 >= 0
+arg1 >= 0
+===========================================================================
+RectTest.test(int, int):::EXIT
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="return == true"
+return == true
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+rectangle.main(java.lang.String[]):::ENTER
+arg0 has only one value
+arg0.getClass().getName() == java.lang.String[].class
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.main(java.lang.String[]):::EXIT
+arg0[] == orig(arg0[])
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.test(int, int):::ENTER
+arg0 == 100
+arg1 == 100
+===========================================================================
+rectangle.test(int, int):::EXIT
+Exiting Daikon.
+Daikon version 5.8.18, released June 23, 2023; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+RectTest:::OBJECT
+this has only one value
+===========================================================================
+RectTest.RectTest():::EXIT
+===========================================================================
+RectTest.test(int, int):::ENTER
+arg0 >= 0
+arg1 >= 0
+===========================================================================
+RectTest.test(int, int):::EXIT
+return one of { 0, 1 }
+===========================================================================
+rectangle.main(java.lang.String[]):::ENTER
+arg0 has only one value
+arg0.getClass().getName() == java.lang.String[].class
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.main(java.lang.String[]):::EXIT
+arg0[] == orig(arg0[])
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.test(int, int):::ENTER
+arg0 == 100
+arg1 == 100
+===========================================================================
+rectangle.test(int, int):::EXIT
+Exiting Daikon.
+Daikon version 5.8.18, released June 23, 2023; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+RectTest:::OBJECT
+this has only one value
+===========================================================================
+RectTest.RectTest():::EXIT
+===========================================================================
+RectTest.test(int, int):::ENTER
+arg0 >= 0
+arg1 >= 0
+===========================================================================
+RectTest.test(int, int):::EXIT
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="return == true"
+return == true
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+rectangle.main(java.lang.String[]):::ENTER
+arg0 has only one value
+arg0.getClass().getName() == java.lang.String[].class
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.main(java.lang.String[]):::EXIT
+arg0[] == orig(arg0[])
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.test(int, int):::ENTER
+arg0 == 100
+arg1 == 100
+===========================================================================
+rectangle.test(int, int):::EXIT
+Exiting Daikon.
+Daikon version 5.8.18, released June 23, 2023; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+RectTest:::OBJECT
+this has only one value
+===========================================================================
+RectTest.RectTest():::EXIT
+===========================================================================
+RectTest.test(int, int):::ENTER
+arg0 >= 0
+arg1 >= 0
+===========================================================================
+RectTest.test(int, int):::EXIT
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="return == true"
+return == true
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+rectangle.main(java.lang.String[]):::ENTER
+arg0 has only one value
+arg0.getClass().getName() == java.lang.String[].class
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.main(java.lang.String[]):::EXIT
+arg0[] == orig(arg0[])
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.test(int, int):::ENTER
+arg0 == 100
+arg1 == 100
+===========================================================================
+rectangle.test(int, int):::EXIT
+Exiting Daikon.
+Daikon version 5.8.18, released June 23, 2023; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+RectTest:::OBJECT
+this has only one value
+===========================================================================
+RectTest.RectTest():::EXIT
+===========================================================================
+RectTest.test(int, int):::ENTER
+arg0 >= 0
+arg1 >= 0
+===========================================================================
+RectTest.test(int, int):::EXIT
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="return == true"
+return == true
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+rectangle.main(java.lang.String[]):::ENTER
+arg0 has only one value
+arg0.getClass().getName() == java.lang.String[].class
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.main(java.lang.String[]):::EXIT
+arg0[] == orig(arg0[])
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.test(int, int):::ENTER
+arg0 == 100
+arg1 == 100
+===========================================================================
+rectangle.test(int, int):::EXIT
+Exiting Daikon.
+Daikon version 5.8.18, released June 23, 2023; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+RectTest:::OBJECT
+this has only one value
+===========================================================================
+RectTest.RectTest():::EXIT
+===========================================================================
+RectTest.test(int, int):::ENTER
+arg0 >= 0
+arg1 >= 0
+===========================================================================
+RectTest.test(int, int):::EXIT
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="return == true"
+return == true
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+rectangle.main(java.lang.String[]):::ENTER
+arg0 has only one value
+arg0.getClass().getName() == java.lang.String[].class
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.main(java.lang.String[]):::EXIT
+arg0[] == orig(arg0[])
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.test(int, int):::ENTER
+arg0 == 100
+arg1 == 100
+===========================================================================
+rectangle.test(int, int):::EXIT
+===========================================================================
+rectangle_obj:::OBJECT
+this has only one value
+this.left >= 0
+this.bottom >= 0
+this.width >= 0
+this.height >= 0
+this.left != this.width
+this.bottom != this.height
+===========================================================================
+rectangle_obj.move_rect(int, int):::ENTER
+this.left one of { 0, 3, 5 }
+this.bottom one of { 0, 3, 5 }
+this.width one of { 10, 13, 18 }
+this.height one of { 10, 13, 18 }
+arg0 one of { 3, 5, 10 }
+arg1 one of { 3, 5, 10 }
+===========================================================================
+rectangle_obj.move_rect(int, int):::EXIT
+this.left == orig(arg0)
+this.bottom == orig(arg1)
+this.left one of { 3, 5, 10 }
+this.bottom one of { 3, 5, 10 }
+this.width one of { 0, 13, 18 }
+this.height one of { 0, 13, 18 }
+===========================================================================
+rectangle_obj.point_inside(int, int):::ENTER
+this.left one of { 3, 5, 10 }
+this.bottom one of { 3, 5, 10 }
+this.width one of { 0, 13, 18 }
+this.height one of { 0, 13, 18 }
+===========================================================================
+rectangle_obj.point_inside(int, int):::EXIT
+this.left == orig(this.left)
+this.bottom == orig(this.bottom)
+this.width == orig(this.width)
+this.height == orig(this.height)
+(this.left == 10)  <==>  (orig(arg0) one of { 2, 9 })
+(this.left == 10)  <==>  (orig(arg1) one of { 2, 9 })
+(this.left == 10)  <==>  (return == false)
+(this.left == 10)  <==>  (this.bottom == 10)
+(this.left == 10)  <==>  (this.height == 0)
+(this.left == 10)  <==>  (this.width == 0)
+(this.left one of { 3, 5 })  <==>  (orig(arg0) one of { 4, 10 })
+(this.left one of { 3, 5 })  <==>  (orig(arg1) one of { 4, 10 })
+(this.left one of { 3, 5 })  <==>  (return == true)
+(this.left one of { 3, 5 })  <==>  (this.bottom one of { 3, 5 })
+(this.left one of { 3, 5 })  <==>  (this.height one of { 13, 18 })
+(this.left one of { 3, 5 })  <==>  (this.width one of { 13, 18 })
+this.left one of { 3, 5, 10 }
+this.bottom one of { 3, 5, 10 }
+this.width one of { 0, 13, 18 }
+this.height one of { 0, 13, 18 }
+===========================================================================
+rectangle_obj.point_inside(int, int):::EXIT;condition="return == true"
+this.left one of { 3, 5 }
+this.bottom one of { 3, 5 }
+this.width one of { 13, 18 }
+this.height one of { 13, 18 }
+return == true
+orig(arg0) one of { 4, 10 }
+orig(arg1) one of { 4, 10 }
+===========================================================================
+rectangle_obj.point_inside(int, int):::EXIT;condition="not(return == true)"
+this.left == 10
+this.bottom == 10
+this.width == 0
+this.height == 0
+return == false
+orig(arg0) one of { 2, 9 }
+orig(arg1) one of { 2, 9 }
+===========================================================================
+rectangle_obj.rectangle_obj(int, int, int, int):::ENTER
+arg0 == 10
+arg1 == 10
+arg2 == 0
+arg3 == 0
+===========================================================================
+rectangle_obj.rectangle_obj(int, int, int, int):::EXIT
+this.left == orig(arg2)
+this.bottom == orig(arg3)
+this.width == orig(arg0)
+this.height == orig(arg1)
+this.left == 0
+this.bottom == 0
+this.width == 10
+this.height == 10
+Exiting Daikon.
+Daikon version 5.8.18, released June 23, 2023; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+RectTest:::OBJECT
+this has only one value
+===========================================================================
+RectTest.RectTest():::EXIT
+===========================================================================
+RectTest.test(int, int):::ENTER
+arg0 >= 0
+arg1 >= 0
+===========================================================================
+RectTest.test(int, int):::EXIT
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="return == true"
+return == true
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+rectangle.main(java.lang.String[]):::ENTER
+arg0 has only one value
+arg0.getClass().getName() == java.lang.String[].class
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.main(java.lang.String[]):::EXIT
+arg0[] == orig(arg0[])
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.test(int, int):::ENTER
+arg0 == 100
+arg1 == 100
+===========================================================================
+rectangle.test(int, int):::EXIT
+===========================================================================
+rectangle_obj:::OBJECT
+this has only one value
+this.left >= 0
+this.bottom >= 0
+this.width >= 0
+this.height >= 0
+this.left != this.width
+this.bottom != this.height
+===========================================================================
+rectangle_obj.move_rect(int, int):::ENTER
+this.left one of { 0, 3, 5 }
+this.bottom one of { 0, 3, 5 }
+this.width one of { 10, 13, 18 }
+this.height one of { 10, 13, 18 }
+arg0 one of { 3, 5, 10 }
+arg1 one of { 3, 5, 10 }
+===========================================================================
+rectangle_obj.move_rect(int, int):::EXIT
+this.left == orig(arg0)
+this.bottom == orig(arg1)
+this.left one of { 3, 5, 10 }
+this.bottom one of { 3, 5, 10 }
+this.width one of { 0, 13, 18 }
+this.height one of { 0, 13, 18 }
+===========================================================================
+rectangle_obj.point_inside(int, int):::ENTER
+this.left one of { 3, 5, 10 }
+this.bottom one of { 3, 5, 10 }
+this.width one of { 0, 13, 18 }
+this.height one of { 0, 13, 18 }
+===========================================================================
+rectangle_obj.point_inside(int, int):::EXIT
+this.left == orig(this.left)
+this.bottom == orig(this.bottom)
+this.width == orig(this.width)
+this.height == orig(this.height)
+(this.left == 10)  <==>  (orig(arg0) one of { 2, 9 })
+(this.left == 10)  <==>  (orig(arg1) one of { 2, 9 })
+(this.left == 10)  <==>  (return == false)
+(this.left == 10)  <==>  (this.bottom == 10)
+(this.left == 10)  <==>  (this.height == 0)
+(this.left == 10)  <==>  (this.width == 0)
+(this.left one of { 3, 5 })  <==>  (orig(arg0) one of { 4, 10 })
+(this.left one of { 3, 5 })  <==>  (orig(arg1) one of { 4, 10 })
+(this.left one of { 3, 5 })  <==>  (return == true)
+(this.left one of { 3, 5 })  <==>  (this.bottom one of { 3, 5 })
+(this.left one of { 3, 5 })  <==>  (this.height one of { 13, 18 })
+(this.left one of { 3, 5 })  <==>  (this.width one of { 13, 18 })
+this.left one of { 3, 5, 10 }
+this.bottom one of { 3, 5, 10 }
+this.width one of { 0, 13, 18 }
+this.height one of { 0, 13, 18 }
+===========================================================================
+rectangle_obj.point_inside(int, int):::EXIT;condition="return == true"
+this.left one of { 3, 5 }
+this.bottom one of { 3, 5 }
+this.width one of { 13, 18 }
+this.height one of { 13, 18 }
+return == true
+orig(arg0) one of { 4, 10 }
+orig(arg1) one of { 4, 10 }
+===========================================================================
+rectangle_obj.point_inside(int, int):::EXIT;condition="not(return == true)"
+this.left == 10
+this.bottom == 10
+this.width == 0
+this.height == 0
+return == false
+orig(arg0) one of { 2, 9 }
+orig(arg1) one of { 2, 9 }
+===========================================================================
+rectangle_obj.rectangle_obj(int, int, int, int):::ENTER
+arg0 == 10
+arg1 == 10
+arg2 == 0
+arg3 == 0
+===========================================================================
+rectangle_obj.rectangle_obj(int, int, int, int):::EXIT
+this.left == orig(arg2)
+this.bottom == orig(arg3)
+this.width == orig(arg0)
+this.height == orig(arg1)
+this.left == 0
+this.bottom == 0
+this.width == 10
+this.height == 10
+Exiting Daikon.
+Daikon version 5.8.18, released June 23, 2023; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+RectTest:::OBJECT
+this has only one value
+===========================================================================
+RectTest.RectTest():::EXIT
+===========================================================================
+RectTest.test(int, int):::ENTER
+arg0 >= 0
+arg1 >= 0
+===========================================================================
+RectTest.test(int, int):::EXIT
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="return == true"
+return == true
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+rectangle.main(java.lang.String[]):::ENTER
+arg0 has only one value
+arg0.getClass().getName() == java.lang.String[].class
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.main(java.lang.String[]):::EXIT
+arg0[] == orig(arg0[])
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.test(int, int):::ENTER
+arg0 == 100
+arg1 == 100
+===========================================================================
+rectangle.test(int, int):::EXIT
+===========================================================================
+rectangle_obj:::OBJECT
+this.left == this.bottom
+this.width == this.height
+this.left >= 0
+this.width >= 0
+===========================================================================
+rectangle_obj.move_rect(int, int):::ENTER
+arg0 == arg1
+this.left <= arg0
+this.width != arg0
+===========================================================================
+rectangle_obj.move_rect(int, int):::EXIT
+this.left == orig(arg0)
+this.left == orig(arg1)
+this.left >= orig(this.left)
+this.left != orig(this.width)
+this.width != orig(this.left)
+===========================================================================
+rectangle_obj.point_inside(int, int):::ENTER
+arg0 == arg1
+this.left != arg0
+this.width != arg0
+===========================================================================
+rectangle_obj.point_inside(int, int):::EXIT
+this.left == orig(this.left)
+this.left == orig(this.bottom)
+this.width == orig(this.width)
+this.width == orig(this.height)
+(return == true)  ==>  (this.left < orig(arg0))
+(return == true)  ==>  (this.left <= this.width)
+this.left != orig(arg0)
+this.width != orig(arg0)
+===========================================================================
+rectangle_obj.point_inside(int, int):::EXIT;condition="return == true"
+return == true
+this.left <= this.width
+this.left < orig(arg0)
+===========================================================================
+rectangle_obj.point_inside(int, int):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+rectangle_obj.rectangle_obj(int, int, int, int):::ENTER
+arg0 == arg1
+arg2 == arg3
+arg0 == 10
+arg2 == 0
+===========================================================================
+rectangle_obj.rectangle_obj(int, int, int, int):::EXIT
+this.left == orig(arg2)
+this.left == orig(arg3)
+this.width == orig(arg0)
+this.width == orig(arg1)
+this.left == 0
+this.width == 10
+Exiting Daikon.
+Daikon version 5.8.18, released June 23, 2023; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+RectTest:::OBJECT
+this has only one value
+===========================================================================
+RectTest.RectTest():::EXIT
+===========================================================================
+RectTest.test(int, int):::ENTER
+arg0 >= 0
+arg1 >= 0
+===========================================================================
+RectTest.test(int, int):::EXIT
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="return == true"
+return == true
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+rectangle.main(java.lang.String[]):::ENTER
+arg0 has only one value
+arg0.getClass().getName() == java.lang.String[].class
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.main(java.lang.String[]):::EXIT
+arg0[] == orig(arg0[])
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.test(int, int):::ENTER
+arg0 == 100
+arg1 == 100
+===========================================================================
+rectangle.test(int, int):::EXIT
+===========================================================================
+rectangle_obj:::OBJECT
+this.left == this.bottom
+this.width == this.height
+this.left >= 0
+this.width >= 0
+===========================================================================
+rectangle_obj.move_rect(int, int):::ENTER
+arg0 == arg1
+this.width != arg0
+===========================================================================
+rectangle_obj.move_rect(int, int):::EXIT
+this.left >= orig(this.left)
+this.left != orig(this.width)
+this.left >= orig(arg0)
+this.width != orig(this.left)
+===========================================================================
+rectangle_obj.point_inside(int, int):::ENTER
+arg0 == arg1
+this.width != arg0
+===========================================================================
+rectangle_obj.point_inside(int, int):::EXIT
+this.left == orig(this.left)
+this.left == orig(this.bottom)
+this.width == orig(this.width)
+this.width == orig(this.height)
+(return == false)  ==>  (this.left != orig(arg0))
+(return == true)  ==>  (this.left <= orig(arg0))
+(return == true)  ==>  (this.left <= this.width)
+this.width != orig(arg0)
+===========================================================================
+rectangle_obj.point_inside(int, int):::EXIT;condition="return == true"
+return == true
+this.left <= this.width
+this.left <= orig(arg0)
+===========================================================================
+rectangle_obj.point_inside(int, int):::EXIT;condition="not(return == true)"
+return == false
+this.left != orig(arg0)
+===========================================================================
+rectangle_obj.rectangle_obj(int, int, int, int):::ENTER
+arg0 == arg1
+arg2 == arg3
+arg0 == 10
+arg2 == 0
+===========================================================================
+rectangle_obj.rectangle_obj(int, int, int, int):::EXIT
+this.left == orig(arg2)
+this.left == orig(arg3)
+this.width == orig(arg0)
+this.width == orig(arg1)
+this.left == 0
+this.width == 10
+Exiting Daikon.
+Daikon version 5.8.18, released June 23, 2023; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+RectTest:::OBJECT
+this has only one value
+===========================================================================
+RectTest.RectTest():::EXIT
+===========================================================================
+RectTest.test(int, int):::ENTER
+arg0 >= 0
+arg1 >= 0
+===========================================================================
+RectTest.test(int, int):::EXIT
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="return == true"
+return == true
+===========================================================================
+RectTest.test(int, int):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+rectangle.main(java.lang.String[]):::ENTER
+arg0 has only one value
+arg0.getClass().getName() == java.lang.String[].class
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.main(java.lang.String[]):::EXIT
+arg0[] == orig(arg0[])
+arg0[] == []
+arg0[].toString == []
+===========================================================================
+rectangle.test(int, int):::ENTER
+arg0 == 100
+arg1 == 100
+===========================================================================
+rectangle.test(int, int):::EXIT
+===========================================================================
+rectangle_obj:::OBJECT
+this.left == this.bottom
+this.width == this.height
+this.left >= 0
+this.width >= 0
+===========================================================================
+rectangle_obj.move_rect(int, int):::ENTER
+arg0 == arg1
+this.width != arg0
+===========================================================================
+rectangle_obj.move_rect(int, int):::EXIT
+this.left >= orig(this.left)
+this.left != orig(this.width)
+this.left >= orig(arg0)
+this.width != orig(this.left)
+===========================================================================
+rectangle_obj.point_inside(int, int):::ENTER
+arg0 == arg1
+this.width != arg0
+===========================================================================
+rectangle_obj.point_inside(int, int):::EXIT
+this.left == orig(this.left)
+this.left == orig(this.bottom)
+this.width == orig(this.width)
+this.width == orig(this.height)
+(return == false)  ==>  (this.left != orig(arg0))
+(return == true)  ==>  (this.left <= orig(arg0))
+(return == true)  ==>  (this.left <= this.width)
+this.width != orig(arg0)
+===========================================================================
+rectangle_obj.point_inside(int, int):::EXIT;condition="return == true"
+return == true
+this.left <= this.width
+this.left <= orig(arg0)
+===========================================================================
+rectangle_obj.point_inside(int, int):::EXIT;condition="not(return == true)"
+return == false
+this.left != orig(arg0)
+===========================================================================
+rectangle_obj.rectangle_obj(int, int, int, int):::ENTER
+arg0 == arg1
+arg2 == arg3
+arg0 == 10
+arg2 == 0
+===========================================================================
+rectangle_obj.rectangle_obj(int, int, int, int):::EXIT
+this.left == orig(arg2)
+this.left == orig(arg3)
+this.width == orig(arg0)
+this.width == orig(arg1)
+this.left == 0
+this.width == 10
+Exiting Daikon.
